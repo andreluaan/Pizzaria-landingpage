@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/navbar.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>landing page</title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <i class="fa-solid fa-pizza-slice" id="nav-logo">fastPizza</i>
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reviews">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="button-default">
+                peça aqui
+            </button>
+
+            <button id="mobile-button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile-menu">
+            <ul id="mobile-nav-list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reviews">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="button-default">
+                peça aqui
+            </button>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                O sabor que você ama, na <span>velocidade</span> que você precisa.
+                </h1>
+
+                <p class="description">Aproveite a entrega
+                     rápida e o sabor autêntico da nossa pizza.
+                     E mais: peça agora e ganhe 10% de desconto
+                      na sua primeira compra!
+                </p>
+
+                <div id="cta-buttons">
+                    <a href="#" class="button-default">
+                        Ver Cardápio
+                    </a>
+
+                    <a href="tel:+55555555" id="phone-button">
+                        <button class="button-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (51) 99123-5555
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img id="banner-image" src="src/img/Pizza Vários Sabores PNG Transparente (6).png" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos sabores</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+
+
+
+</body>
+</html>
