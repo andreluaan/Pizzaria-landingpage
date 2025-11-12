@@ -11,9 +11,10 @@ header {
 }
 
 #nav-logo {
+    display: flex;
     font-size: 24px;
     color: #af801c;  
-    gap: 2px;
+    gap: 4px;
 }
 
 #nav-list {
