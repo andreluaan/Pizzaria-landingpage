@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/styles/styles.css">
-    <link rel="stylesheet" href="src/styles/navbar.css">
-    <link rel="stylesheet" href="src/styles/home.css">
-    <link rel="stylesheet" href="src/styles/menu.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
     <title>landing page</title>
 </head>
 
@@ -23,9 +23,6 @@
                 </li>
                 <li class="nav-item">
                     <a href="#menu">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact">Contato</a>
                 </li>
                 <li class="nav-item">
                     <a href="#reviews">Avaliações</a>
@@ -111,7 +108,7 @@
 
         <section id="menu">
             <h2 class="section-title">Cardápio</h2>
-            <h3 class="section-subtitle">Nossos sabores</h3>
+            <h3 class="section-subtitle">Nossos sabores especiais</h3>
 
             <div id="dishes">
                 <div class="dish">
@@ -123,7 +120,7 @@
                     <h3 class="dish-title">Frango com Catupiry</h3>
 
                     <span class="dish-description">
-                        Molho de tomate, mussarela, frango desfiado, catupiry e orégano.
+                        Molho de tomate, mussarela, frango desfiado, catupiry.
                     </span>
 
                     <div class="dish-rate">
@@ -295,11 +292,115 @@
 
         </section>
 
+        <section id="reviews">
+            <img src="src/img/chef.png" id="review-chef" alt="">
+
+            <div id="reviews-content">
+                <h2 class="section-title">Avaliações</h2>
+                <h3 class="section-subtitle">O que nossos clientes falam sobre nós</h3>
+            
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>João Silva
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </span>
+                            </p>
+
+                            <p>Ótima experiência! A comida estava deliciosa e o atendimento foi excelente, recomendo a todos!</p>
+                        </div>
+
+                        
+                    </div>
+                    
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>Maria Oliveira
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+
+                            <p>Pizza deliciosa com uma crosta perfeita e ingredientes frescos e saborosos, a melhor que já comi!</p>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>Carlos Santos
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+
+                            <p>A comida estava incrível, com sabores autênticos e uma apresentação impecável.</p>
+                        </div>
+
+                        
+                    </div>
+                                       
+                </div>
+
+                <button class="button-default">Ver mais avaliações</button>
+            </div>
+
+        </section>
+
     </main>
 
+
+    <footer>
+        <img src="src/img/wave.svg" alt="">
+
+        <div id="footer-items">
+            <span id="copyright">
+                © 2024 André Luan Bernardo.
+            </span>
+
+            <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
     <script src="src/javascript/script.js"></script>
-
-
 
 </body>
 </html>

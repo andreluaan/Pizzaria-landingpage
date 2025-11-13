@@ -1,6 +1,10 @@
 header {
     width: 100%;
-    padding: 28px 8%;
+    padding: 21px 8%;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color);
+    z-index: 3;
 }
 
 #nav-bar {
@@ -30,7 +34,7 @@ header {
 }
 
 .nav-item.active a {
-    color:#1d1d1d;
+    color:var(--secondary-color);
     border-bottom: 3px solid #ffe100;
 }
 
@@ -72,5 +76,16 @@ header {
     #mobile-nav-list .nav-item {
         list-style: none;
         text-align: center;
+    }
+}
+
+
+@media screen and (max-width : 700px) {
+    header {
+        padding: 12px 5%;
+    }
+
+    #nav-logo {
+        font-size: 17px;
     }
 }

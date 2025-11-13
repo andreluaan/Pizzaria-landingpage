@@ -14,7 +14,7 @@
 
 #cta .title {
     font-size: 4rem;
-    color: #1d1d1d;
+    color: var(--secondary-color);
 }
 
 #cta .title span {
@@ -31,7 +31,7 @@
 }
 
 #cta-buttons a {
-    color: #1d1d1d;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
